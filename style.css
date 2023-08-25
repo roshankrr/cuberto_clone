@@ -1,0 +1,206 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Matter Light";
+}
+*::selection{
+    background:black;
+    color: #fff;}
+html,body{
+  width: 100%;
+  height: 100%
+}
+#main{
+    width: 100%;
+    height: 100%;
+}
+#home{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 40vh;
+}
+#nav img{
+    padding-left: 20px;
+    height: 70px;
+    width:130px;
+}
+#righ h2{
+    padding-top: 20px;
+    padding-right: 15px;
+    font-weight: lighter;
+}
+#righ{
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    padding: 10px 20px ;
+    width: 300px;
+}
+#righ i{
+    margin-top: 25px;
+    font-size: 20px;
+}
+#homemain{
+    width: 100%;
+    height: 35vh;
+    padding: 0px 15.5%;
+    line-height: 0.8;
+}
+#homemain h4{
+    font-family:Arial, Helvetica, sans-serif;
+    letter-spacing: -0.1vw;
+}
+#homemain h1{
+
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 900;
+    font-size:7vw;
+    color:transparent;
+    -webkit-text-stroke: 1px #000;
+    
+}
+#homemain h1:hover{
+    color:black;
+    transition: 0.5s;
+}
+#homelast{
+    width: 900px;
+    padding-left: 15.5%;
+}
+#homelast p{
+    font-size: 2vw;
+    font-weight: 600;
+}
+#homelast p::selection{
+    background:black;
+    color: #fff;
+}
+#page1{
+    width: 100%;
+    height: 100vh;
+}
+#featured{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 3vw;
+    width: 100%;
+    margin-top: 100px;
+    padding-top: 30px;
+    padding-left: 15.5%;
+    line-height: 0.8;
+}
+#featured h2:nth-child(2){
+    color:transparent;
+    -webkit-text-stroke: 1px #000;
+}
+#fimage{
+    margin-top: 40px;
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    justify-content: space-between;
+}
+#fleft{
+    overflow: hidden;
+    height: inherit;
+    width: 45%;
+
+}
+.felem{
+    width: 100%;
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.felem h4{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.7vw;
+    font-weight: 550;
+}
+.felem h1{
+    margin:2vw 0;
+    font-size: 3vw;
+    font-weight: 500;
+    line-height: 1;
+    text-transform: capitalize;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.felem h5{
+
+    font-size: 1.4vw;
+    line-height: 1.5;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400;
+    opacity: .5;
+}
+#fright{
+    height: 600px;
+    width: 45%;
+    display: flex;
+    align-items:end;
+    justify-content: flex-end;
+    background-color: black;
+    margin-right: 35px;
+    margin-top: 60px;
+}
+.frimag{
+    width: 100%;
+    height: 100%;
+
+}
+#fright .frimag img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+}
+button{
+    font-size: 1.5vw;
+    font-weight: 600;
+    padding:1vw 1vw;
+    background-color: #fff;
+    border: 1.5px solid rgb(202, 201, 201);
+    border-radius: 100px;;
+}
+#page2{
+    width: 100%;
+    height: 100vh;
+}
+#dev{
+    width: 40%;
+    margin-top: 300px;
+    margin-left: 200px;
+}
+#dev h1{
+    padding: 45px 0px;
+    font-family:"Matter light";
+    font-size: 4vw;
+    line-height: 0.8;
+}
+#dev p{
+    font-weight: 700;
+    font-size:19px;
+}
+#slides{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    margin: 10% 9%;
+}
+.slid img{
+    height: 15vw;
+    width: 25vw;
+    border-radius: 10px;
+}
+.slid #tag{
+    width: fit-content;
+    background-color: rgb(243, 242, 242);
+    border-radius: 100px;
+    padding: 10px 22px;
+    margin: 5px 0px;
+}
